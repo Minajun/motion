@@ -14,6 +14,7 @@
 		C27DDB441F569E3D00A894C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27DDB421F569E3D00A894C4 /* LaunchScreen.storyboard */; };
 		C27DDB4F1F569E3D00A894C4 /* motionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DDB4E1F569E3D00A894C4 /* motionTests.swift */; };
 		C27DDB5A1F569E3D00A894C4 /* motionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27DDB591F569E3D00A894C4 /* motionUITests.swift */; };
+		C27DDB6D1F569F1800A894C4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27DDB681F569E6F00A894C4 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C27DDB551F569E3D00A894C4 /* motionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27DDB591F569E3D00A894C4 /* motionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motionUITests.swift; sourceTree = "<group>"; };
 		C27DDB5B1F569E3D00A894C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27DDB681F569E6F00A894C4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27DDB6D1F569F1800A894C4 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				C27DDB4D1F569E3D00A894C4 /* motionTests */,
 				C27DDB581F569E3D00A894C4 /* motionUITests */,
 				C27DDB371F569E3D00A894C4 /* Products */,
+				C27DDB671F569E6F00A894C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				C27DDB5B1F569E3D00A894C4 /* Info.plist */,
 			);
 			path = motionUITests;
+			sourceTree = "<group>";
+		};
+		C27DDB671F569E6F00A894C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C27DDB681F569E6F00A894C4 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
